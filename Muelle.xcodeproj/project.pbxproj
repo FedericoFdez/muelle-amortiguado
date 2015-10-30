@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFD375DE1BC3E6BF008CCD1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD375DD1BC3E6BF008CCD1E /* AppDelegate.swift */; };
+		DFD375E01BC3E6BF008CCD1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD375DF1BC3E6BF008CCD1E /* ViewController.swift */; };
+		DFD375E31BC3E6BF008CCD1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD375E11BC3E6BF008CCD1E /* Main.storyboard */; };
+		DFD375E51BC3E6BF008CCD1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD375E41BC3E6BF008CCD1E /* Assets.xcassets */; };
+		DFD375E81BC3E6BF008CCD1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD375E61BC3E6BF008CCD1E /* LaunchScreen.storyboard */; };
+		DFD375F31BC3E6BF008CCD1E /* MuelleAmortiguadoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD375F21BC3E6BF008CCD1E /* MuelleAmortiguadoTests.swift */; };
+		DFD375FE1BC3E6BF008CCD1E /* MuelleAmortiguadoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD375FD1BC3E6BF008CCD1E /* MuelleAmortiguadoUITests.swift */; };
+		DFFCBC401BC54C1000C8EBEC /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFCBC3F1BC54C1000C8EBEC /* GraphView.swift */; };
+		DFFCBC421BC5582200C8EBEC /* GraphModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFCBC411BC5582200C8EBEC /* GraphModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFD375EF1BC3E6BF008CCD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD375D21BC3E6BE008CCD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD375D91BC3E6BE008CCD1E;
+			remoteInfo = MuelleAmortiguado;
+		};
+		DFD375FA1BC3E6BF008CCD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD375D21BC3E6BE008CCD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD375D91BC3E6BE008CCD1E;
+			remoteInfo = MuelleAmortiguado;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFD375DA1BC3E6BE008CCD1E /* Muelle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muelle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD375DD1BC3E6BF008CCD1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFD375DF1BC3E6BF008CCD1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFD375E21BC3E6BF008CCD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFD375E41BC3E6BF008CCD1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFD375E71BC3E6BF008CCD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFD375E91BC3E6BF008CCD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD375EE1BC3E6BF008CCD1E /* Muelle.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Muelle.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD375F21BC3E6BF008CCD1E /* MuelleAmortiguadoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuelleAmortiguadoTests.swift; sourceTree = "<group>"; };
+		DFD375F41BC3E6BF008CCD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD375F91BC3E6BF008CCD1E /* Muelle.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Muelle.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD375FD1BC3E6BF008CCD1E /* MuelleAmortiguadoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuelleAmortiguadoUITests.swift; sourceTree = "<group>"; };
+		DFD375FF1BC3E6BF008CCD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFCBC3F1BC54C1000C8EBEC /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		DFFCBC411BC5582200C8EBEC /* GraphModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFD375D71BC3E6BE008CCD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD375EB1BC3E6BF008CCD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD375F61BC3E6BF008CCD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFD375D11BC3E6BE008CCD1E = {
+			isa = PBXGroup;
+			children = (
+				DFD375DC1BC3E6BE008CCD1E /* MuelleAmortiguado */,
+				DFD375F11BC3E6BF008CCD1E /* MuelleAmortiguadoTests */,
+				DFD375FC1BC3E6BF008CCD1E /* MuelleAmortiguadoUITests */,
+				DFD375DB1BC3E6BE008CCD1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFD375DB1BC3E6BE008CCD1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFD375DA1BC3E6BE008CCD1E /* Muelle.app */,
+				DFD375EE1BC3E6BF008CCD1E /* Muelle.xctest */,
+				DFD375F91BC3E6BF008CCD1E /* Muelle.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFD375DC1BC3E6BE008CCD1E /* MuelleAmortiguado */ = {
+			isa = PBXGroup;
+			children = (
+				DFD375DD1BC3E6BF008CCD1E /* AppDelegate.swift */,
+				DFD375DF1BC3E6BF008CCD1E /* ViewController.swift */,
+				DFFCBC3F1BC54C1000C8EBEC /* GraphView.swift */,
+				DFFCBC411BC5582200C8EBEC /* GraphModel.swift */,
+				DFD375E11BC3E6BF008CCD1E /* Main.storyboard */,
+				DFD375E41BC3E6BF008CCD1E /* Assets.xcassets */,
+				DFD375E61BC3E6BF008CCD1E /* LaunchScreen.storyboard */,
+				DFD375E91BC3E6BF008CCD1E /* Info.plist */,
+			);
+			path = MuelleAmortiguado;
+			sourceTree = "<group>";
+		};
+		DFD375F11BC3E6BF008CCD1E /* MuelleAmortiguadoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD375F21BC3E6BF008CCD1E /* MuelleAmortiguadoTests.swift */,
+				DFD375F41BC3E6BF008CCD1E /* Info.plist */,
+			);
+			path = MuelleAmortiguadoTests;
+			sourceTree = "<group>";
+		};
+		DFD375FC1BC3E6BF008CCD1E /* MuelleAmortiguadoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD375FD1BC3E6BF008CCD1E /* MuelleAmortiguadoUITests.swift */,
+				DFD375FF1BC3E6BF008CCD1E /* Info.plist */,
+			);
+			path = MuelleAmortiguadoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFD375D91BC3E6BE008CCD1E /* Muelle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD376021BC3E6BF008CCD1E /* Build configuration list for PBXNativeTarget "Muelle" */;
+			buildPhases = (
+				DFD375D61BC3E6BE008CCD1E /* Sources */,
+				DFD375D71BC3E6BE008CCD1E /* Frameworks */,
+				DFD375D81BC3E6BE008CCD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Muelle;
+			productName = MuelleAmortiguado;
+			productReference = DFD375DA1BC3E6BE008CCD1E /* Muelle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFD375ED1BC3E6BF008CCD1E /* MuelleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD376051BC3E6BF008CCD1E /* Build configuration list for PBXNativeTarget "MuelleTests" */;
+			buildPhases = (
+				DFD375EA1BC3E6BF008CCD1E /* Sources */,
+				DFD375EB1BC3E6BF008CCD1E /* Frameworks */,
+				DFD375EC1BC3E6BF008CCD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD375F01BC3E6BF008CCD1E /* PBXTargetDependency */,
+			);
+			name = MuelleTests;
+			productName = MuelleAmortiguadoTests;
+			productReference = DFD375EE1BC3E6BF008CCD1E /* Muelle.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFD375F81BC3E6BF008CCD1E /* MuelleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD376081BC3E6BF008CCD1E /* Build configuration list for PBXNativeTarget "MuelleUITests" */;
+			buildPhases = (
+				DFD375F51BC3E6BF008CCD1E /* Sources */,
+				DFD375F61BC3E6BF008CCD1E /* Frameworks */,
+				DFD375F71BC3E6BF008CCD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD375FB1BC3E6BF008CCD1E /* PBXTargetDependency */,
+			);
+			name = MuelleUITests;
+			productName = MuelleAmortiguadoUITests;
+			productReference = DFD375F91BC3E6BF008CCD1E /* Muelle.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFD375D21BC3E6BE008CCD1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = UPM;
+				TargetAttributes = {
+					DFD375D91BC3E6BE008CCD1E = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = S6JEBPZNPE;
+					};
+					DFD375ED1BC3E6BF008CCD1E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DFD375D91BC3E6BE008CCD1E;
+					};
+					DFD375F81BC3E6BF008CCD1E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DFD375D91BC3E6BE008CCD1E;
+					};
+				};
+			};
+			buildConfigurationList = DFD375D51BC3E6BE008CCD1E /* Build configuration list for PBXProject "Muelle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFD375D11BC3E6BE008CCD1E;
+			productRefGroup = DFD375DB1BC3E6BE008CCD1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFD375D91BC3E6BE008CCD1E /* Muelle */,
+				DFD375ED1BC3E6BF008CCD1E /* MuelleTests */,
+				DFD375F81BC3E6BF008CCD1E /* MuelleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFD375D81BC3E6BE008CCD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD375E81BC3E6BF008CCD1E /* LaunchScreen.storyboard in Resources */,
+				DFD375E51BC3E6BF008CCD1E /* Assets.xcassets in Resources */,
+				DFD375E31BC3E6BF008CCD1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD375EC1BC3E6BF008CCD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD375F71BC3E6BF008CCD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFD375D61BC3E6BE008CCD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD375E01BC3E6BF008CCD1E /* ViewController.swift in Sources */,
+				DFD375DE1BC3E6BF008CCD1E /* AppDelegate.swift in Sources */,
+				DFFCBC421BC5582200C8EBEC /* GraphModel.swift in Sources */,
+				DFFCBC401BC54C1000C8EBEC /* GraphView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD375EA1BC3E6BF008CCD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD375F31BC3E6BF008CCD1E /* MuelleAmortiguadoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD375F51BC3E6BF008CCD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD375FE1BC3E6BF008CCD1E /* MuelleAmortiguadoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFD375F01BC3E6BF008CCD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD375D91BC3E6BE008CCD1E /* Muelle */;
+			targetProxy = DFD375EF1BC3E6BF008CCD1E /* PBXContainerItemProxy */;
+		};
+		DFD375FB1BC3E6BF008CCD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD375D91BC3E6BE008CCD1E /* Muelle */;
+			targetProxy = DFD375FA1BC3E6BF008CCD1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFD375E11BC3E6BF008CCD1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD375E21BC3E6BF008CCD1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFD375E61BC3E6BF008CCD1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD375E71BC3E6BF008CCD1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFD376001BC3E6BF008CCD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFD376011BC3E6BF008CCD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD376031BC3E6BF008CCD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MuelleAmortiguado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.Muelle;
+				PRODUCT_NAME = Muelle;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DFD376041BC3E6BF008CCD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MuelleAmortiguado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.Muelle;
+				PRODUCT_NAME = Muelle;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		DFD376061BC3E6BF008CCD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MuelleAmortiguadoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.MuelleAmortiguadoTests;
+				PRODUCT_NAME = Muelle;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muelle.app/Muelle";
+			};
+			name = Debug;
+		};
+		DFD376071BC3E6BF008CCD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MuelleAmortiguadoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.MuelleAmortiguadoTests;
+				PRODUCT_NAME = Muelle;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Muelle.app/Muelle";
+			};
+			name = Release;
+		};
+		DFD376091BC3E6BF008CCD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MuelleAmortiguadoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.MuelleAmortiguadoUITests;
+				PRODUCT_NAME = Muelle;
+				TEST_TARGET_NAME = MuelleAmortiguado;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DFD3760A1BC3E6BF008CCD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MuelleAmortiguadoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.upm.MuelleAmortiguadoUITests;
+				PRODUCT_NAME = Muelle;
+				TEST_TARGET_NAME = MuelleAmortiguado;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFD375D51BC3E6BE008CCD1E /* Build configuration list for PBXProject "Muelle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD376001BC3E6BF008CCD1E /* Debug */,
+				DFD376011BC3E6BF008CCD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD376021BC3E6BF008CCD1E /* Build configuration list for PBXNativeTarget "Muelle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD376031BC3E6BF008CCD1E /* Debug */,
+				DFD376041BC3E6BF008CCD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD376051BC3E6BF008CCD1E /* Build configuration list for PBXNativeTarget "MuelleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD376061BC3E6BF008CCD1E /* Debug */,
+				DFD376071BC3E6BF008CCD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD376081BC3E6BF008CCD1E /* Build configuration list for PBXNativeTarget "MuelleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD376091BC3E6BF008CCD1E /* Debug */,
+				DFD3760A1BC3E6BF008CCD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFD375D21BC3E6BE008CCD1E /* Project object */;
+}
